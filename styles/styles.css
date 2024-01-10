@@ -1,23 +1,45 @@
-header{
-    height: 100px;
+body {
+  font-family: "Nunito", sans-serif;
 }
-footer{
-   
+header {
+  height: 100px;
 }
-.header-image{
-    position: relative;
-    height:100px;
-    width:100%;
-    object-fit: cover;
+.header-content {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  
 }
-.kijani-logo{
-    height:60px;
-    width: 60px;
+p {
+  font-weight: 700;
+  font-size: 28px;
 }
-.footer-items{
-    display: flex;
-    justify-content: space-evenly;
+footer {
+  background-color: #f9f7fe;
 }
-.watering-garden{
-   
+.header-image {
+  display: block;
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+}
+.kijani-logo {
+  height: 60px;
+  width: 60px;
+}
+.footer-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-text {
+  font-size: 10px;
+}
+@media (max-width: 576px) {
+  p {
+    font-size: 16px;
+  }
 }
