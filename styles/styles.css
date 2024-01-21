@@ -5,13 +5,22 @@ header {
   height: 100px;
   margin-bottom: 250px;
 }
-h2{
-    text-align: center;
-    font-weight: 700;
-    font-size: 72px;
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 72px;
+}
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #662eed;
 }
 p {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 28px;
 }
 
@@ -19,6 +28,14 @@ footer {
   background-color: #f9f7fe;
   height: 100px;
   padding: 30px;
+}
+
+.nav-link {
+  color: #4caf50;
+  transition: all 100ms ease-in-out;
+}
+.nav-link:hover {
+  color: #f47d86;
 }
 .header-image {
   display: block;
@@ -31,22 +48,29 @@ footer {
   height: 60px;
   width: 60px;
 }
-.social-media-icons a{
-  margin: 0 20px;
+.social-media-icons a {
+  margin: 0 10px;
   color: black;
   transition: all 150ms ease-in-out;
 }
 
-.social-media-icons a:hover{
-  color: #c4aefc;
+.social-media-icons a:hover {
+  color: #4caf50;
 }
 .footer-text {
-  font-size: 16px;
+  font-size: 11px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
-
-
+.about-kijani {
+  font-size: 18px;
+}
+.herb-selection {
+  font-size: 36px;
+}
+.contact-info {
+  font-size: 24px;
+}
 @media (max-width: 576px) {
   p {
     font-size: 16px;
@@ -58,9 +82,29 @@ footer {
     margin-bottom: 60px;
   }
   .footer-text {
-    font-size: 10px;
+    font-size: 9px;
   }
-  h2{
+  .social-media-icons a {
+    margin: 0 1px;
+  }
+  .herb-selection {
     font-size: 30px;
+  }
+  h1,
+  h2 {
+    font-size: 30px;
+  }
+  .kijani-logo {
+    height: 40px;
+    width: 40px;
+  }
+  .contact-info {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .social-media-icons,.footer-logo {
+    display: none;
   }
 }
